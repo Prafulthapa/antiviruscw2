@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import patch, call
 from tkinter import Tk
 from datetime import datetime
-from antivirus import AntivirusApp
+from antivirusmain import AntivirusApp
 
 class TestAntivirusApp(unittest.TestCase):
     @patch('antivirus.messagebox.showwarning')
